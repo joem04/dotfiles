@@ -1,0 +1,17 @@
+# <file system> <dir> <type> <options> <dump> <pass>
+
+# Arch Drive
+# /dev/nvme0n1p2
+UUID=26f38461-cbba-4821-846b-8a93e5165268	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p1
+UUID=019B-2ADC      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+
+# Secondary Drives
+
+# UUID=a3156dbe-9044-4f94-b9f3-96666ebe16d8
+/dev/sda                /media/sda    ext4        defaults    0 0
+
+# UUID=136b09bb-4224-4228-861c-661ccdbcff70
+/dev/sdb                /media/sdb    ext4        defaults    0 0
