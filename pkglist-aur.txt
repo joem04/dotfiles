@@ -1,0 +1,7 @@
+protontricks
+timeshift-autosnap
+ttf-font-awesome-5
+virtualbox-ext-oracle
+vscodium-bin
+yay
+yay-debug
