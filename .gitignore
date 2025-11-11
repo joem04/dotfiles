@@ -1,0 +1,27 @@
+# Sensitive files - NEVER commit these!
+*_history
+*.key
+*.pem
+*.cer
+*.p12
+id_rsa*
+id_ed25519
+id_ecdsa
+*.gpg
+.ssh/
+
+# Passwords and secrets
+*password*
+*secret*
+*.env
+.env.*
+
+# Cache and temporary files
+.cache/
+*.log
+*.swp
+*.swo
+*~
+
+# Machine-specific
+.DS_Store
