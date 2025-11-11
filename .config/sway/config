@@ -61,7 +61,7 @@ set $file thunar
 ### Output configuration
 #
 # Set wallpaper:
-output * bg /home/joe/Pictures/wallpapers/wallpaper.jpg fill
+output * bg $HOME/dotfiles/wallpapers/wallpaper.jpg fill
 #
 # Example configuration:
 #

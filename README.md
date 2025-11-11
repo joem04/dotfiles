@@ -24,6 +24,8 @@ My Arch Linux configuration files.
 ├── pkglist.txt          # All explicitly installed packages
 ├── pkglist-native.txt   # Official repo packages only
 ├── pkglist-aur.txt      # AUR packages only
+├── wallpapers/          # Wallpaper images
+│   └── wallpaper.jpg
 └── .config/
     ├── alacritty/       # Terminal emulator config
     ├── sway/            # Wayland compositor config
@@ -69,6 +71,10 @@ My Arch Linux configuration files.
    ```bash
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
    ```
+
+## Wallpaper
+
+The Sway config references the wallpaper directly from `~/dotfiles/wallpapers/wallpaper.jpg`, so no symlink needed! Just make sure you clone this repo to `~/dotfiles`.
 
 ## Notes
 
